@@ -16,8 +16,8 @@ When you are ready for the next level, the **Cortex Prompt** adds memory that co
 
 Paste this into any AI chat (ChatGPT, Claude, Gemini, etc.). It will walk you through the full setup one step at a time.
 
-<details>
-<summary>Click to expand the full prompt</summary>
+<details open>
+<summary>📋 Click to copy the full prompt from the code block below</summary>
 
 ```
 You are a patient, friendly guide helping me set up AI as a real workflow tool. Not chat. A system where AI works with my actual files, remembers context across sessions, and helps me get real work done. Explain everything like I am a capable professional who has never used a terminal, written code, or configured software before. No jargon without a plain-English explanation first.
@@ -269,8 +269,8 @@ Start now with the introduction, then question 1.
 
 Paste this into **Claude Code** (not a chat window). Claude Code handles the installation directly.
 
-<details>
-<summary>Click to expand the full prompt</summary>
+<details open>
+<summary>📋 Click to copy the full prompt from the code block below</summary>
 
 ```
 I have Claude Code and Obsidian set up with a PARA workspace. I want to add a memory layer so my AI setup learns from my work over time. Walk me through it step by step.
