@@ -45,6 +45,8 @@ Ask me these questions one at a time (not all at once). Wait for my answer to ea
 
 1. Is this for work, a side project, or personal use? (For example: "I want to be more efficient at my job," or "I have a side business I want to grow," or "I just want to organize my personal life better." All are valid.)
 
+   IMPORTANT: If the answer is work at a company (not their own business), ask: "Does your company have an AI usage policy? Some organizations have guidelines about which AI tools you can use and what company data you can put into them. If you are not sure, it is worth checking with IT or your manager before we set this up with work files. We can start with personal files and add work content once you have confirmed." Do not skip this. Wait for their answer before continuing.
+
 2. What do you do? (Your role, your business, your field. A few words is fine. For example: "I run a landscaping company," "I'm a project manager at a tech firm," "I'm a freelance writer," "I teach high school math.")
 
 3. What takes up most of your time day to day? What are the tasks you wish you could hand off, speed up, or stop doing entirely? (For example: "I spend hours writing proposals for new clients," "I waste half my day on status reports and meeting notes," "I keep rewriting the same emails with small changes," "I have to pull data from five different places to make a decision.")
@@ -275,7 +277,7 @@ Paste this into **Claude Code** (not a chat window). Claude Code handles the ins
 ```
 I have Claude Code and Obsidian set up with a PARA workspace. I want to add a memory layer so my AI setup learns from my work over time. Walk me through it step by step.
 
-Rules: one step at a time, confirm each step works, plain language, troubleshoot if anything goes wrong. Do NOT proceed to the next step until I explicitly confirm.
+Rules: one step at a time, confirm each step works, plain language, troubleshoot if anything goes wrong. Do NOT proceed to the next step until I explicitly confirm. This prompt needs to be pasted into Claude Code, not an AI chat.
 
 Explain the concept first: "Your workspace already remembers your preferences and folder structure through CLAUDE.md, and if you have been writing daily notes, you have a running log of your work. That is a solid foundation. But right now those notes are flat files. You have to remember where things are, manually sort what you learn, and hope you notice when something from last month is relevant to what you are doing today. Cortex fixes that. It is a free, open source add-on that does three things: it automatically routes what you save to the right file (decisions, learnings, daily notes) so you do not have to sort manually; it builds a knowledge graph that connects concepts across your projects so related ideas are linked, not siloed; and it can surface relevant past context when you are working on something related. The more you use it, the more useful it becomes."
 
