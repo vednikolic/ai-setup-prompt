@@ -291,11 +291,11 @@ Steps (execute each one, confirm it worked, then move to the next):
 
 2. Copy the two skill files into this workspace:
    - Copy /tmp/cortex-install/.claude/skills/save/SKILL.md to .claude/skills/save/SKILL.md (create directories as needed)
-   - Copy /tmp/cortex-install/.claude/skills/dream/SKILL.md to .claude/skills/dream/SKILL.md
+   - Copy /tmp/cortex-install/.claude/skills/reflect/SKILL.md to .claude/skills/reflect/SKILL.md
 
 3. Install the concepts CLI to ~/.cortex/:
-   - Copy the cortex_lib/ directory, the concepts script, abbreviations.json, and dream-prep.sh from /tmp/cortex-install/ to ~/.cortex/
-   - Make concepts and dream-prep.sh executable
+   - Copy the cortex_lib/ directory, the concepts script, abbreviations.json, and reflect-prep.sh from /tmp/cortex-install/ to ~/.cortex/
+   - Make concepts and reflect-prep.sh executable
 
 4. Check if ~/.cortex is in the user's PATH. If not, add export PATH="$HOME/.cortex:$PATH" to their shell profile (~/.zshrc on Mac, ~/.bashrc on Linux). Tell the user what you added and why.
 
@@ -308,7 +308,7 @@ Steps (execute each one, confirm it worked, then move to the next):
 7. Clean up: remove /tmp/cortex-install
 
 8. Verify everything works:
-   - Confirm .claude/skills/save/SKILL.md and .claude/skills/dream/SKILL.md exist
+   - Confirm .claude/skills/save/SKILL.md and .claude/skills/reflect/SKILL.md exist
    - Confirm ~/.cortex/concepts --version runs successfully
    - Confirm concepts.db exists in the workspace
 
@@ -322,7 +322,7 @@ Once installed, explain:
 
 Frame it simply: "Your AI collaborator now has a memory that gets smarter the more you use it. Each session builds on every previous one."
 
-- Once a week, Claude Code will suggest running /dream. Follow those instructions when it comes up. If you have Auto Dream enabled, it already handles the basics: deduplication, date cleanup, memory file maintenance. Cortex's /dream does a different job. It runs six analysis passes across your workspace: flagging stale entries, escalating repeated friction into automation candidates, detecting cross-project signals (convergences, risks, opportunities), reviewing concepts ready for promotion, surfacing dormant ideas, and checking graph health. It is called 'dream' for a reason: your brain does not just store memories overnight. It replays the day, connects new experiences to old ones, and surfaces insights you missed in the moment. Auto Dream is the cleanup. Cortex's /dream is the pattern recognition. Both run without blocking your work.
+- Once a week, Claude Code will suggest running /reflect. Follow those instructions when it comes up. If you have Auto Dream enabled, it already handles the basics: deduplication, date cleanup, memory file maintenance. Cortex's /reflect does a different job. It runs six analysis passes across your workspace: flagging stale entries, escalating repeated friction into automation candidates, detecting cross-project signals (convergences, risks, opportunities), reviewing concepts ready for promotion, surfacing dormant ideas, and checking graph health. It is called 'reflect' because that is what it does: it looks back across your accumulated work, connects new experiences to old ones, and surfaces insights you missed in the moment. Auto Dream is the cleanup. Cortex's /reflect is the pattern recognition. Both run without blocking your work.
 
 DAILY NOTES: THE HABIT THAT MAKES IT COMPOUND
 Now suggest a daily habit that takes 30 seconds and makes the whole system dramatically more useful over time:
@@ -357,7 +357,7 @@ After the setup prompt:
 After the cortex prompt:
 - **Automatic routing** so decisions, learnings, and daily notes go to the right file without manual sorting
 - **Knowledge graph** that connects concepts across projects
-- **Memory consolidation** (/dream) that finds patterns you would miss
+- **Memory consolidation** (/reflect) that finds patterns you would miss
 - A daily habit that takes 30 seconds and compounds over time
 
 ## Requirements
